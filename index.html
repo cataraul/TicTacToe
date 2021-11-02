@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="times-solid.svg" />
+    <title>TicTacToe</title>
+  </head>
+  <body>
+    <!-- <div class="modal-choose">
+      <div class="modal-container">
+        <h3>Chose who you want to play against.</h3>
+        <div class="modal-choose-buttons">
+          <button class="modal-choose-btn">Player</button>
+          <button class="modal-choose-btn">Computer</button>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="modal">
+      <div class="modal-container">
+        <h2 class="modal-container-header"></h2>
+        <button class="play-again play-again-button">Play again</button>
+      </div>
+    </div>
+    <div class="rule">
+      <p class="arrow">&larr;</p>
+      <div>
+        <p>0(zero) starts first.</p>
+        <p>Because he can.</p>
+      </div>
+    </div>
+
+    <header><h1>TicTacToe</h1></header>
+    <div class="player">
+      <h3>First Player(O) :<span class="score-o score">0</span></h3>
+      <h3>Second Player(X): <span class="score-x score">0</span></h3>
+    </div>
+    <div class="container">
+      <div class="cell" data-number="1"></div>
+      <div class="cell" data-number="2"></div>
+      <div class="cell" data-number="3"></div>
+      <div class="cell" data-number="4"></div>
+      <div class="cell" data-number="5"></div>
+      <div class="cell" data-number="6"></div>
+      <div class="cell" data-number="7"></div>
+      <div class="cell" data-number="8"></div>
+      <div class="cell" data-number="9"></div>
+    </div>
+    <button class="play-again reset">Reset</button>
+    <script src="script.js"></script>
+  </body>
+</html>
